@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repositories encoding="UTF-8" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>xmonad-overlay</name>
+    <description>Overlay for xmonad related things</description>
+    <homepage>https://github.com/pepi55/xmonad-overlay</homepage>
+    <owner>
+      <email>pepi55@live.com</email>
+      <name>Petar Dimitrov</name>
+    </owner>
+    <source type="git">https://github.com/pepi55/xmonad-overlay.git</source>
+  </repo>
+</repositories>
