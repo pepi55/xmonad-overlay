@@ -8,6 +8,6 @@
       <email>pepi55@live.com</email>
       <name>Petar Dimitrov</name>
     </owner>
-    <source type="git">https://github.com/pepi55/xmonad-overlay.git</source>
+    <source type="git">git://github.com/pepi55/xmonad-overlay.git</source>
   </repo>
 </repositories>
