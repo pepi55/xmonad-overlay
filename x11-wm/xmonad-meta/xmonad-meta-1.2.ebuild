@@ -9,7 +9,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="dzen conky dmenu xmobar trayer xev"
 
-RDEPEND="
+DEPEND="
 	x11-wm/xmonad
 	x11-wm/xmonad-contrib
 	conky? ( app-admin/conky )
@@ -19,3 +19,5 @@ RDEPEND="
 	xmobar? ( x11-misc/xmobar )
 	trayer? ( x11-misc/trayer )
 "
+
+RDEPEND="${DEPEND}"
