@@ -7,11 +7,12 @@ EAPI="5"
 DESCRIPTION="Installs all recommended xmonad packages"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="dzen conky dmenu xmobar trayer xev"
+IUSE="dzen conky dmenu xmobar trayer xev feh"
 
 DEPEND="
 	x11-wm/xmonad
 	x11-wm/xmonad-contrib
+	feh? ( media-gfx/feh )
 	conky? ( app-admin/conky )
 	xev? ( x11-apps/xev )
 	dzen? ( x11-misc/dzen )
