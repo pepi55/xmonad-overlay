@@ -7,7 +7,7 @@ EAPI="5"
 DESCRIPTION="Installs all recommended xmonad packages"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="dzen conky dmenu xmobar trayer xev feh"
+IUSE="dzen conky dmenu xmobar trayer xev feh xdotool"
 
 DEPEND="
 	x11-wm/xmonad
@@ -19,6 +19,7 @@ DEPEND="
 	dmenu? ( x11-misc/dmenu )
 	xmobar? ( x11-misc/xmobar )
 	trayer? ( x11-misc/trayer )
+	xdotool? ( x11-misc/xdotool )
 "
 
 RDEPEND="${DEPEND}"
